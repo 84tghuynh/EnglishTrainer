@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EnglishTrainer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="message">Message</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="share">Share</string>
+    <string name="communicate">Communicate</string>
+    <string name="send">Send</string>
+    <string name="speech">Speech</string>
+    <string name="save">Save</string>
+    <string name="Learned">Learned</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="say_it">Say It</string>
+    <string name="enter_some_text_then_say_it">Enter some text then Say It</string>
+    <string name="delete_it">delete it</string>
+    <string name="typing_your_text_and_clicking_the_speaker">Typing your text and clicking the speaker</string>
+    <string name="delete_word">Delete word</string>
+</resources>

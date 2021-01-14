@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnSay"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/ic_speaker_foreground"
+            android:contentDescription="@string/say_it"
+            app:layout_constraintBottom_toTopOf="@+id/etSay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etSay"
+            android:layout_width="395dp"
+            android:layout_height="634dp"
+            android:layout_below="@+id/btnSay"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:autofillHints=""
+            android:background="#FBF9F9"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/typing_your_text_and_clicking_the_speaker"
+            android:inputType="textMultiLine"
+            android:paddingStart="8dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSay" />
+    </RelativeLayout>
+
+</FrameLayout>

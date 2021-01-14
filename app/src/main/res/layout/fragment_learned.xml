@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnedFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/ic_delete_foreground"
+            android:contentDescription="@string/delete_word" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/btnDelete"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="0dp"
+            android:background="?android:attr/listDivider" />
+
+        <ListView
+            android:id="@+id/rvItems"
+            android:layout_width="398dp"
+            android:layout_height="614dp"
+            android:layout_below="@+id/divider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="11dp">
+
+        </ListView>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
