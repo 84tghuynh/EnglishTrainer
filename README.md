@@ -5,3 +5,5 @@
  Using API greater 29.
  
  To speech when running the app in Emulator, need to turn on virtual microphone in setting and use a microphone.
+ 
+ -
